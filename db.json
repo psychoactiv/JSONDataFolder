@@ -1,10 +1,50 @@
 {
-  "test": [{ "Hi": "hello" }],
-  "sampleTest": [
-    { "hell": "ThisTheHell", "heaven": "ThisisdefinatelyNotHeaven" },
-    { "hell": "ThisTheHell", "heaven": "ThisisdefinatelyNotHeaven" },
-    { "hell": "ThisTheHell", "heaven": "ThisisdefinatelyNotHeaven" },
-    { "hell": "ThisTheHell", "heaven": "ThisisdefinatelyNotHeaven" },
-    { "hell": "ThisTheHell", "heaven": "ThisisdefinatelyNotHeaven" }
+  "notes": [
+    {
+      "id": 1,
+      "title": "Sample title",
+      "note": "Data for sample note",
+      "labelName": "HOME",
+      "date": "2022/03/31",
+      "cardColor": "plain",
+      "isArchieved": true,
+      "priority": 1
+    }
+  ],
+  "label": [
+    {
+      "id": 1,
+      "title": "Sample title",
+      "note": "Data for sample note",
+      "labelName": "HOME",
+      "date": "2022/03/31",
+      "cardColor": "plain",
+      "isArchieved": true,
+      "priority": 1
+    }
+  ],
+  "archive": [
+    {
+      "id": 1,
+      "title": "Sample title",
+      "note": "Trashed Data",
+      "labelName": "HOME",
+      "date": "2022/03/31",
+      "cardColor": "plain",
+      "isArchieved": true,
+      "priority": 1
+    }
+  ],
+  "trashed": [
+    {
+      "id": 751,
+      "title": "Sample title",
+      "note": "Data for sample note",
+      "labelName": "HOME",
+      "date": "2022/03/31",
+      "cardColor": "white-box",
+      "isArchieved": false,
+      "priority": 1
+    }
   ]
 }
